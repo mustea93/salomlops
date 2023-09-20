@@ -15,4 +15,4 @@ jobs:
           python train.py
 
           echo "MODEL METRICS"
-          cat metricst.txt
+          cat metrics.txt

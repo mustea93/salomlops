@@ -12,7 +12,8 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python train.py
+          pip freeze
+          #python train.py
 
           echo "MODEL METRICS"
           cat metrics.txt
